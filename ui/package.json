@@ -1,0 +1,21 @@
+{
+  "name": "ai-directory-analyzer",
+  "version": "1.0.0",
+  "description": "A desktop application that uses AI to analyze directories and generate .txt files.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "electron": "^15.3.0",
+    "python-shell": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  }
+}
